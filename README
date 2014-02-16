@@ -5,7 +5,7 @@ DwarfPool.com
 Usage with auto-failover: cgminer --keccak -o stratum+tcp://erebor.dwarfpool.com:3339 -u YOUR_WALLET -p 1 --failover-only -o stratum+tcp://moria.dwarfpool.com:3339 -u YOUR_WALLET -p 1
 
 How to build:
-sh autohen.sh
+sh autogen.sh
 ./configure --enable-keccak --enable-opencl
 make
 
